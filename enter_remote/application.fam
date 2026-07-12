@@ -1,0 +1,12 @@
+App(
+    appid="enter_remote",
+    name="Enter Remote (BLE)",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="enter_remote_app",
+    stack_size=2 * 1024,
+    fap_libs=["ble_profile"],
+    fap_category="Bluetooth",
+    fap_author="loganman",
+    fap_version="1.0",
+    fap_description="BLE presentation remote based on the Keynote profile, but the OK button sends ENTER instead of Space. Arrow keys change slides.",
+)
